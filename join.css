@@ -1,0 +1,34 @@
+ /* Style for the outer container with flex display */
+    .join-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      padding-top: 5%;
+      padding-bottom: 5%;
+      background-color: #ffc100;
+      background-image: url('/14312_generated-removebg-preview.png');
+      background-repeat: no-repeat;
+      background-position: -21% -5%;
+
+    }
+ 
+    /* Style for each inner div */
+    .text-container,
+    .button-container {
+      flex: 1;
+      margin: 0 10px;
+    }
+ 
+    /* Style for the button */
+    .join-button {
+      padding: 11px 55px;
+      font-size: 16px;
+      background-color: #ffffff;
+      color: #000;
+      border: none;
+      cursor: pointer;
+      border-radius: 30px;
+  }
+
+ 
